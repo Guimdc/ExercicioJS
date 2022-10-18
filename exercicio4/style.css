@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: rgb(18,57,93);
+    background: linear-gradient(121deg, rgba(18,57,93,1) 0%, rgba(169,220,227,1) 62%);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #12395d;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+#form h1{
+    color: #a9dce3;
+    font-size: 18pt;
+}
+
+.form-2{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.form-3{
+    width: 100%;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-2 input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px 15px 15px;
+    background-color: #345370;
+    color: #f0ffffde;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+}
+
+.form-2 input::placeholder{
+    color: #f0ffffde;
+}
+
+#num{
+    width: 70%;
+}
+
+.form-2 label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+    font-size: 12pt;
+}
+
+#form .button{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 15px 0px 0px 0px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #12395d;
+    background-color: #a9dce3;
+    cursor: pointer;
+}
+
+#adicionar{
+    width: 25%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #12395d;
+    background-color: #a9dce3;
+    cursor: pointer;
+}
+
+#form button:hover{
+    box-shadow: 0px 10px 40px #a9dce3;
+}
+#text_area{
+    resize: none;
+    background-color: #a9dce3;
+    color: white;
+}
