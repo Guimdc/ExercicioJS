@@ -1,3 +1,4 @@
 # ExercicioJS
-Trabalho feito em Dupla
+Trabalho feito em dupla
+
 Guilherme Machado Dal Castel e Luciano Neto
